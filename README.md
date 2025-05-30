@@ -26,8 +26,6 @@ PID_Interfaz/
 ├── PID_GUI_Experimental.py   # Interfaz gráfica y lógica de simulación PID
 ├── server.py                 # Servidor TCP/IP que envía datos de simulación
 ├── requirements.txt          # Dependencias del proyecto
-└── docs/
-    └──                       # Documentación completa en PDF (generada desde la interfaz)
 ```
 
 ---
