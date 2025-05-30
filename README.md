@@ -20,3 +20,9 @@ Este proyecto implementa un sistema de simulación y visualización de un contro
 - **Código Modular y Documentado:** Fácil de mantener, modificar y expandir para nuevas leyes de control o modelos de sistema.
 
 ## Estructura del Proyecto
+SS/
+├── PID_GUI_Experimental.py   # Interfaz gráfica y lógica de simulación PID
+├── server.py                # Servidor TCP/IP que envía datos de simulación
+├── requirements.txt         # Dependencias del proyecto
+└── docs/
+    └── Manual_Usuario.pdf   # Documentación completa en PDF (generada desde la interfaz)
