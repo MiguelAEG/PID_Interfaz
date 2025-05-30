@@ -22,7 +22,7 @@ Este proyecto implementa un sistema de simulación y visualización de un contro
 ## 📁 Estructura del Proyecto
 
 ```
-SS/
+PID_Interfaz/
 ├── PID_GUI_Experimental.py   # Interfaz gráfica y lógica de simulación PID
 ├── server.py                 # Servidor TCP/IP que envía datos de simulación
 ├── requirements.txt          # Dependencias del proyecto
