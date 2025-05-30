@@ -35,7 +35,6 @@ PID_Interfaz/
 1. **Clona el repositorio:**
    ```sh
    git clone https://github.com/MiguelAEG/PID_Interfaz.git
-   cd SS
    ```
 
 2. **Instala las dependencias:**
