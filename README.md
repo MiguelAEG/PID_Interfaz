@@ -19,10 +19,56 @@ Este proyecto implementa un sistema de simulación y visualización de un contro
 - **Control Total de la Simulación:** Funcionalidades para iniciar, pausar, resetear la simulación y gestionar la conexión de socket desde la propia interfaz.
 - **Código Modular y Documentado:** Fácil de mantener, modificar y expandir para nuevas leyes de control o modelos de sistema.
 
-## Estructura del Proyecto
+## 📁 Estructura del Proyecto
+
+```
 SS/
 ├── PID_GUI_Experimental.py   # Interfaz gráfica y lógica de simulación PID
-├── server.py                # Servidor TCP/IP que envía datos de simulación
-├── requirements.txt         # Dependencias del proyecto
+├── server.py                 # Servidor TCP/IP que envía datos de simulación
+├── requirements.txt          # Dependencias del proyecto
 └── docs/
-    └── Manual_Usuario.pdf   # Documentación completa en PDF (generada desde la interfaz)
+    └──                       # Documentación completa en PDF (generada desde la interfaz)
+```
+
+---
+
+## ⚡ Instalación
+
+1. **Clona el repositorio:**
+   ```sh
+   git clone https://github.com/MiguelAEG/PID_Interfaz.git
+   cd SS
+   ```
+
+2. **Instala las dependencias:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Ejecuta el servidor de datos:**
+   ```sh
+   python server.py
+   ```
+
+4. **Ejecuta la interfaz gráfica:**
+   ```sh
+   python PID_GUI_Experimental.py
+   ```
+
+---
+
+## 🖥️ Uso
+
+- Ajusta los parámetros PID desde la interfaz gráfica.
+- Conecta al servidor usando la IP y puerto configurables.
+- Visualiza en tiempo real la respuesta del sistema y los datos recibidos.
+- Exporta los resultados y genera la documentación en PDF con un solo clic.
+
+---
+
+
+## 👨‍💻 Créditos
+
+Desarrollado por **[Miguel Angel Enríquez Garía]**  
+Contacto: [miguel.egk@gmail.com]
+
